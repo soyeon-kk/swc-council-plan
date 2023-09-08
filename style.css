@@ -5,15 +5,15 @@ a {
 h1 {
     font-size : 40px;
     text-align : center;
-    border-bottom : 1px solid gray;
+    border-bottom : 1px solid #383737;
     margin : 0;
     padding : 20px;
 }
 .c1 {
-    color : gray;
+    color : #383737;
 }
 #grid ol {
-    border-right : 1px solid gray;
+    border-right : 1px solid #383737;
     width : 100px;
     margin : 0;
     padding : 20px

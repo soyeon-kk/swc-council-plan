@@ -4,21 +4,14 @@
     <p>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LB3WJX636V"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-    
-        gtag('config', 'G-LB3WJX636V');
-        </script>
-        <title>소융대 학생회 기획처</title>
-        <meta charset = "utf-8">
-    </p>
-    <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+        <!-- 위 코드는 jQuery 라이브러리를 사용하기 위한 코드임. -->
+        <script src = "color.js"></script>
 </head>
 
 <body>
-    <h1><a href = "index.html" style = "text-decoration : underline">소융대 학생회 기획처</a></h1>
+    <h1><a href = "index.html" style = "text-decoration : underline" id = 'head'>소융대 학생회 기획처</a></h1>
 
     <div id = "grid">
         <ol>
@@ -29,7 +22,9 @@
 
         <div id = "article">
             <h2>기획처 규칙</h2>
-
+            <input type = "button" value = "night" onclick = "
+                nightDayHandler(this);
+            ">
             <p>
                 <iframe width="560" height="315" 
                 src="https://www.youtube.com/embed/wYOD6bTmTk4" 
